@@ -5,3 +5,51 @@ body{
 img{
     width:15%;
 }
+p{
+    background-color: black;
+    color: #97ac9f;
+    border-radius: 8px;
+    padding: 5px;
+}
+ul{
+    background-color: black;
+    color: #97ac9f;
+    border-radius: 8px;
+    padding: 5px;
+}
+body::selection{
+    color:#000;
+    background: yellow;
+}
+p::selection{
+    color:#000;
+    background: yellow;
+}
+ul::selection{
+    color:#000;
+    background: yellow;
+}
+h2::selection{
+    color:#000;
+    background: yellow;
+}
+h1::selection{
+    color:#000;
+    background: yellow;
+}
+h3::selection{
+    color:#000;
+    background: yellow;
+}
+li::selection{
+    color:#000;
+    background: yellow;
+}
+img::selection{
+    color:#000;
+    background: yellow;
+}
+footer::selection{
+    color:#000;
+    background: yellow;
+}
