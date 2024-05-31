@@ -18,6 +18,7 @@ ul{
     color: #97ac9f;
     border-radius: 8px;
     padding: 5px;
+    width: 10%;
 }
 body::selection{
     color:#000;
