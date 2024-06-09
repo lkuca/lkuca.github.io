@@ -1,58 +1,103 @@
-body{
-    background-color: #97ac9f;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #da4949;
+}
 
+header {
+    background: #ede862;
+    color: #f27370;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #f27370;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: #fa9856;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: white;
+    border-bottom: 2px solid #f27370;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: white;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: #ede862;
+    color: #da4949;
+    width: 100%;
+    bottom: 0;
 }
 img{
-    width:15%;
-    border-radius: 8px;
-    padding: 5px;
-}
-p{
-    background-color: black;
-    color: #97ac9f;
-    border-radius: 8px;
-    padding: 5px;
-}
-ul{
-    background-color: black;
-    color: #97ac9f;
-    border-radius: 8px;
-    padding: 5px;
-    width: 10%;
-}
-body::selection{
-    color:#000;
-    background: yellow;
-}
-p::selection{
-    color:#000;
-    background: yellow;
-}
-ul::selection{
-    color:#000;
-    background: yellow;
-}
-h2::selection{
-    color:#000;
-    background: yellow;
-}
-h1::selection{
-    color:#000;
-    background: yellow;
-}
-h3::selection{
-    color:#000;
-    background: yellow;
-}
-li::selection{
-    color:#000;
-    background: yellow;
-}
-img::selection{
-    color:#000;
-    background: yellow;
-}
-footer::selection{
-    color:#000;
-    background: yellow;
+    width: 800px;
 }
